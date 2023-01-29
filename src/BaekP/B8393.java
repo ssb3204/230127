@@ -7,13 +7,14 @@ public class B8393 {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		
+		int c=0;
 		int n=scan.nextInt();
 		scan.close();
 		
-		for(int i=0;i<n;i++) {
-			i+=i;
+		for(int i=1;i<=n;i++) {
+			c=c+i;
 		}
-		System.out.println(n);
+		System.out.println(c);
 	}
 
 }
