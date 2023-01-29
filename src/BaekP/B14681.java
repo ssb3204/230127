@@ -9,6 +9,7 @@ public class B14681 {
 		
 		int a=scan.nextInt();
 		int b=scan. nextInt();
+		scan.close();
 		
 		if(a>0) {
 			if(b>0) System.out.println("1");

@@ -19,6 +19,8 @@ public class B3003 {
 		knight= knight - scan.nextInt();
 		pawn = pawn - scan.nextInt();
 		
+		scan.close();
+		
 		System.out.print(king + " ");
 		System.out.print(queen + " ");
 		System.out.print(rook + " ");

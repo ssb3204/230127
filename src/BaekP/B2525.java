@@ -12,6 +12,8 @@ public class B2525 {
 		int em=scan.nextInt();
 		int eh=0;
 		
+		scan.close();
+		
 		eh =(em+m)/60;		
 		h+=eh;
 		m=(em+m)%60;
