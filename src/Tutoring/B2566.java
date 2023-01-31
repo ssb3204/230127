@@ -19,15 +19,15 @@ public class B2566 {
 				arr[i][j]=scan.nextInt();
 				if(big<arr[i][j]) {
 					big=arr[i][j]; 
-					x=i+1;
-					y=j+1;
+					x=i;  
+					y=j;
 				}
 			}
 		}
 		scan.close();
 		
 		System.out.println(big);
-		System.out.println(x+" "+y);
+		System.out.println((x+1)+" "+(y+1));
 		
 	}
 }
