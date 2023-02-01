@@ -1,5 +1,6 @@
 package BaekP;
-import java.util.*;
+
+import java.util.Scanner;
 
 public class B18108 {
 
