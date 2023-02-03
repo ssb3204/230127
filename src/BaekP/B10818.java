@@ -19,7 +19,7 @@ public class B10818 {
 			arr[i]= Integer.parseInt(st.nextToken());
 		}
 		
-		Arrays.sort(arr);
+		Arrays.sort(arr);						//import java.util 내부에 있는 Arrays 사용, Arrays.sort(배열)사용시 오름차순 정렬
 		System.out.println(arr[0]+" "+arr[arr.length-1]);
 		
 	}
