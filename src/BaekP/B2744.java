@@ -14,7 +14,6 @@ public class B2744 {
 		
 		for(int i=0;i<s.length();i++) {
 			char c= s.charAt(i);
-			
 			if(Character.isUpperCase(c)) System.out.print(String.valueOf(c).toLowerCase());
 			else System.out.print(String.valueOf(c).toUpperCase());
 	}
