@@ -1,21 +1,15 @@
+import java.util.Arrays;
 import java.util.ArrayList;
 class Solution {
-    public int[] solution(int n) {
-        ArrayList<Integer> num = new ArrayList<>();
-        
-        for(int i=2;i<=n;i++){
-            while(n%i==0){
-                if(!num.contains(i)){
-                    num.add(i);
-                }
-                n/=i;
+    public int[] solution(int n) {  
+        int[] num = new int[n];
+        int index = 0;
+        for (int i=2;i<=n;i++) {
+            while (n%i== 0) {
+                num[index++] = i;
+                n /= i;
             }
         }
-        
-        int answer[]= new int[num.size()];
-        for(int i=0;i<answer.length;i++){
-            answer[i]=num.get(i);
-        }
-        return answer;
+        return Arrays.stream(num, 0, index).distinct().toArray();  
     }
 }
