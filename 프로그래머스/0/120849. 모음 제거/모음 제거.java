@@ -3,8 +3,8 @@ class Solution {
         String answer = "";
         String no="aeiuo";
         for(int i=0;i<my_string.length();i++){
-            if(no.indexOf(my_string.charAt(i))==-1){
-                answer+=my_string.charAt(i);
+            if (no.indexOf(my_string.charAt(i))== -1) {
+                answer += my_string.charAt(i);
             }
         
         }
