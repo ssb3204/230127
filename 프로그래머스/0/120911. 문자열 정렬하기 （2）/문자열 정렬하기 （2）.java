@@ -7,6 +7,6 @@ class Solution {
         
         Arrays.sort(arr);
         
-        return String.valueOf(arr);
+        return new String(arr);
     }
 }
