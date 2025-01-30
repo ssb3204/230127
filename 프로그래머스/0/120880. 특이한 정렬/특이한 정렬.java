@@ -14,6 +14,10 @@ class Solution {
             }
             return ma-mb;
         });
-        return list.stream().mapToInt(i -> i).toArray();
+        int arr[]=new int[list.size()];
+        for(int i=0;i<list.size();i++){
+            arr[i]=list.get(i);
+        }
+        return arr;
     }
 }
